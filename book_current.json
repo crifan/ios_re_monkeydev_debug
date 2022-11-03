@@ -1,0 +1,19 @@
+{
+  "title": "iOS逆向开发：MonkeyDev调试",
+  "description": "整理iOS逆向开发中动态调试和插件tweak开发都会涉及到的工具MonkeyDev。先是概览；然后介绍环境搭建，包括初始化安装MonkeyDev，以如何及用Xcode+MonkeyDev去动态调试YouTube的ipa的过程；然后介绍MonkeyDev内部包含的内容，class-dump、LLDBTools等；然后总结心得，包括内部脚本逻辑、项目代码结构。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ios_re_monkeydev_debug"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ios_re_monkeydev_debug/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ios_re_monkeydev_debug/pdf/ios_re_monkeydev_debug.pdf"
+    }
+  }
+}
