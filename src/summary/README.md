@@ -2,6 +2,16 @@
 
 TODO：
 
+* 【整理】iOS越狱插件开发工具：MonkeyDev
+* 【未解决】Mac中安装和搭建MonkeyDev+XCode的开发环境
+* 【已解决】MonkeyDev安装失败：Failed to download AloneMonkey/frida-ios-dump/3.x/dump.py
+* 【已解决】MonkeyDev安装报错：tar Error Failed to extract md-install file.tar.gz
+* 【已解决】MonkeyDev的XCode编译报错：ld file not found /usr/lib/libstdc++.dylib
+* 【已解决】MonkeyDev的XCode项目编译报错：codesign_allocate error failed with exit code 34304 errno No such file or directory
+* 【已解决】MonkeyDev的XCode编译：始终弹框安装codesign_allocate命令行工具
+* 【已解决】XCode启动崩溃：Failed to register spec from DEiOSSupportCore.ideplugin couldn't register specification malformed property list dictionary required key Identifier not present
+* 【已解决】MonkeyDev的XCode项目编译报错：Unable to install This application’s application-identifier entitlement does not match that of the installed application
+* 
 * 【已解决】MonkeyDev的XCode项目编译报错：Unable to install This application’s application-identifier entitlement does not match that of the installed application
 * 【记录】用XCode和MonkeyDev调试Logos越狱插件代码的效果
 * 【已解决】用XCode和MonkeyDev去调试iOS抖音app
