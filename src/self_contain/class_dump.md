@@ -9,3 +9,4 @@ TODO：
 ---
 
 * `class-dump`：是编译好的二进制支持swift混淆的版本
+  * 对应路径：`/opt/MonkeyDev/bin/class-dump`
