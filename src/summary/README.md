@@ -11,7 +11,6 @@ TODO：
 * 【已解决】XCode启动崩溃：Failed to register spec from DEiOSSupportCore.ideplugin couldn't register specification malformed property list dictionary required key Identifier not present
 * 【已解决】MonkeyDev的XCode项目编译报错：Unable to install This application’s application-identifier entitlement does not match that of the installed application
 * 
-* 【已解决】MonkeyDev的XCode项目编译报错：Unable to install This application’s application-identifier entitlement does not match that of the installed application
 * 【记录】用XCode和MonkeyDev调试Logos越狱插件代码的效果
 * 【已解决】用XCode和MonkeyDev去调试iOS抖音app
 * 【未解决】给MonkeyDev的pack.sh加上echo的log日志调试分析运行逻辑
