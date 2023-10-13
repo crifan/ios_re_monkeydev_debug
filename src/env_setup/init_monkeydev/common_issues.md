@@ -1,4 +1,6 @@
-# 常见错误
+# 常见问题
+
+此处整理MonkeyDev环境初始化期间的常见问题。
 
 ## curl: (7) Failed to connect to raw.githubusercontent.com port 443: Connection refused
 

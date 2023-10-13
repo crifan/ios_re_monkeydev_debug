@@ -28,10 +28,10 @@
 ### 新建MonkeyDev项目
 
 * Xcode中新建项目，选`MonkeyDev`->`MonkeyApp`
-  * ![xcode_new_monkeydev_app](../assets/img/xcode_new_monkeydev_app.jpg)
+  * ![xcode_new_monkeydev_app](../../assets/img/xcode_new_monkeydev_app.jpg)
 * 填写项目信息
   * 效果
-    * ![xcode_project_info_youtube](../assets/img/xcode_project_info_youtube.jpg)
+    * ![xcode_project_info_youtube](../../assets/img/xcode_project_info_youtube.jpg)
   * 包名：`com.google.ios.youtube`
     * `Product Name`：`youtube`
     * `Organization Identifier`：`com.google.ios`
@@ -40,21 +40,21 @@
 * 选择项目保存路径
   * 此处：`/Users/crifan/dev/DevRoot/YoutubeAdsFilter/Xcode/YouTube_1708`
 * 新建好了`Xcode`+`MonkeyDev`的项目
-  * ![monkeydev_new_project](../assets/img/monkeydev_new_project.jpg)
+  * ![monkeydev_new_project](../../assets/img/monkeydev_new_project.jpg)
 
 ### 导入ipa
 
 * 添加导入（[砸壳](https://book.crifan.org/books/ios_re_crack_shell_ipa/website/)后的）ipa
   * `TargetApp`->右键->`Add Files to`
-    * ![add_files_to](../assets/img/add_files_to.jpg)
+    * ![add_files_to](../../assets/img/add_files_to.jpg)
   * 选择ipa文件
     * 图
-      * ![choose_youtube_ipa](../assets/img/choose_youtube_ipa.jpg)
+      * ![choose_youtube_ipa](../../assets/img/choose_youtube_ipa.jpg)
     * 参数
       * `Destination`：`Copy Items if needed`
       * `Added folders`：`Create groups`
   * 添加好了的ipa
-    * ![added_ipa_youtube](../assets/img/added_ipa_youtube.jpg)
+    * ![added_ipa_youtube](../../assets/img/added_ipa_youtube.jpg)
 
 ### 确认（调整）MonkeyDev配置参数
 
@@ -62,7 +62,7 @@
 
 去`TARGETS`->`youtube` 中确认此处MonkeyDev的配置参数（是你所希望的）：
 
-![target_monkeydev_para](../assets/img/target_monkeydev_para.jpg)
+![target_monkeydev_para](../../assets/img/target_monkeydev_para.jpg)
 
 此处参数配置值（多数是默认值）是：
 
@@ -80,12 +80,12 @@
 然后Xcode中即可去调试运行ipa：
 
 * Building
-  * ![xcode_youtube_building](../assets/img/xcode_youtube_building.jpg)
+  * ![xcode_youtube_building](../../assets/img/xcode_youtube_building.jpg)
 * Installing
-  * ![xcode_youtube_installing](../assets/img/xcode_youtube_installing.jpg)
+  * ![xcode_youtube_installing](../../assets/img/xcode_youtube_installing.jpg)
 * Running
-  * ![xcode_youtube_running](../assets/img/xcode_youtube_running.jpg)
+  * ![xcode_youtube_running](../../assets/img/xcode_youtube_running.jpg)
 
 然后可以在`iPhone`真机上调试`YouTube`了：
 
-![xcode_debug_iphone_youtube](../assets/img/xcode_debug_iphone_youtube.jpg)
+![xcode_debug_iphone_youtube](../../assets/img/xcode_debug_iphone_youtube.jpg)
