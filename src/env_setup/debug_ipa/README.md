@@ -14,7 +14,11 @@
       * `Destination`：`Copy Items if needed`
         * 表示将ipa拷贝过来，而不是只是建立引用（链接）
       * `Added folders`：`Create groups`
-  * （4）确保`Targets`是`youtube`（而**不是**youtubeDylib），点击**▶️**按钮去启动调试，即可正常调试
+  * （4）确保已设置合适的目标部署iOS版本
+    * 尽量让`PROJECT`和`TARGETS`中的iOS目标的版本一致
+      * `PROJECT`->`ProjectName`->`Info`->`Deployment Target`->`iOS Deployment Target`，比如设置为`iOS 12.0`
+      * `TARGETS`->`ProjectName`->`General`->`Minimum Deployment`，比如设置为`iOS 12.0`
+  * （5）确保`Targets`是`youtube`（而**不是**youtubeDylib），点击**▶️**按钮去启动调试，即可正常调试
   * 如果遇到各种问题
     * Unable to install
       * Could not inspect the application package
@@ -41,6 +45,14 @@
   * 此处：`/Users/crifan/dev/DevRoot/YoutubeAdsFilter/Xcode/YouTube_1708`
 * 新建好了`Xcode`+`MonkeyDev`的项目
   * ![monkeydev_new_project](../../assets/img/monkeydev_new_project.jpg)
+
+### 确保已设置合适的目标部署iOS版本
+
+* 尽量让`PROJECT`和`TARGETS`中的iOS目标的版本一致
+  * `PROJECT`->`ProjectName`->`Info`->`Deployment Target`->`iOS Deployment Target`，比如设置为`iOS 12.0`
+    * ![xcode_project_deployment_target_ios_12](../../assets/img/xcode_project_deployment_target_ios_12.png)
+  * `TARGETS`->`ProjectName`->`General`->`Minimum Deployment`，比如设置为`iOS 12.0`
+    * ![xcode_targets_minium_deployment_ios_12](../../assets/img/xcode_targets_minium_deployment_ios_12.png)
 
 ### 导入ipa
 
