@@ -2,7 +2,6 @@
 
 TODO：
 
-* 【整理】iOS越狱插件开发工具：MonkeyDev
 * 【未解决】Mac中安装和搭建MonkeyDev+XCode的开发环境
 * 【已解决】MonkeyDev安装失败：Failed to download AloneMonkey/frida-ios-dump/3.x/dump.py
 * 【已解决】MonkeyDev安装报错：tar Error Failed to extract md-install file.tar.gz

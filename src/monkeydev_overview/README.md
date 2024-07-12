@@ -23,9 +23,33 @@
       * 将自动开发的非越狱插件制造成Pod以供其它人通过pod的方法来使用
     * `MonkeyAppMac`
       * 针对Mac逆向开发的模块，可以自动集成substitute，注入以及符号还原工作
-  * 官网
-    * Github
-      * AloneMonkey/MonkeyDev: CaptainHook Tweak、Logos Tweak and Command-line Tool、Patch iOS Apps, Without Jailbreak.
-        * https://github.com/AloneMonkey/MonkeyDev
-      * wiki
-        * https://github.com/AloneMonkey/MonkeyDev/wiki
+
+## MonkeyDev vs iOSOpenDev
+
+* MonkeyDev vs iOSOpenDev
+  * MonkeyDev比iOSOpenDev）多出一些更加有用的参数：
+    * MonkeyDevDevicePassword
+      * 默认值：`alpine`
+    * MonkeyDevTheosPath
+      * 默认值：`/opt/theos`
+    * MonkeyDevKillProcessOnInstall
+      * 默认值：`SpringBoard`
+
+## 官方资料
+* 官方资料
+  * Github
+    * AloneMonkey/MonkeyDev: CaptainHook Tweak、Logos Tweak and Command-line Tool、Patch iOS Apps, Without Jailbreak.
+      * https://github.com/AloneMonkey/MonkeyDev
+    * wiki
+      * https://github.com/AloneMonkey/MonkeyDev/wiki
+        * [开始使用](https://github.com/AloneMonkey/MonkeyDev/wiki/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8)
+        * [非越狱App集成](https://github.com/AloneMonkey/MonkeyDev/wiki/%E9%9D%9E%E8%B6%8A%E7%8B%B1App%E9%9B%86%E6%88%90)
+    * 代码
+      * [MonkeyDev/bin/md at master · AloneMonkey/MonkeyDev](https://github.com/AloneMonkey/MonkeyDev/blob/master/bin/md)
+        * `export PATH=/opt/MonkeyDev/bin:$MonkeyDevTheosPath/bin:/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin:$PATH`
+    * 相关
+      * AloneMonkey/MonkeyDev-Xcode-Templates: MonkeyDev-Xcode-Templates
+        * https://github.com/AloneMonkey/MonkeyDev-Xcode-Templates
+  * Blog
+    * https://blog.alonemonkey.com/
+      * [iOSOpenDev修改版MonkeyDev](https://blog.alonemonkey.com/2017/06/28/monkeydev/)
